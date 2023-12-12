@@ -8,7 +8,7 @@ import i18n from './src/services/i18next'; // Import the i18n.js file
 import { I18nextProvider, useTranslation } from 'react-i18next';
 
 export default function App() {
-  const [showLanguageSwitcher, setShowLanguageSwitcher] = useState(true);
+ 
   const [showModal, setShowModal]=useState(false);
 
   const handleOpenModal =()=>{
